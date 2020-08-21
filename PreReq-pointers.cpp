@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int x;
-
+void fun();
 int main()
 {
     static int x=50;
@@ -16,16 +16,22 @@ int main()
     
 
     cout<<sizeof(int)<<endl;
-
+ 
     cout<<sizeof(char)<<endl;
 
     cout<<x<<endl;
-    
+    // fun();
+
+    return 0;  
+ 
+} 
 
 
-
-    return 0;
-
-}
+// # define scanf "%s Geeks Quiz"
+// int main()
+// {
+//    printf(scanf, scanf);
+//    return 0;
+// }
 
 
