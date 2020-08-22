@@ -1,6 +1,8 @@
 #include<iostream>
 #include<string>
+#include<vector>
 using namespace std;
+  
 
 int main()
 {
@@ -22,16 +24,18 @@ int main()
     // else cout<<"Not Adult"<<endl;
     //Problem 3
 
-    int age;
-    string gender;
-    cin>>age;
-    cin.get();
-    getline(cin,gender);
+    // int age;
+    // string gender;
+    // cin>>age;
+    // cin.get();
+    // getline(cin,gender);
 
-    if(age<18) cout<<gender<<" "<<"Kid";
-    else if(age>=18) cout<<gender<<" "<<"Adult";
+    // if(age<18) cout<<gender<<" "<<"Kid";
+    // else if(age>=18) cout<<gender<<" "<<"Adult";
 
-
-
+     
+  
+  
+    
     return 0;
 }
