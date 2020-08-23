@@ -35,7 +35,9 @@ int main()
 
      
   
-  
+//   cout << sizeof(printf("GeeksQuiz"));
+
+   cout << (1 << (2 + 3) << 4)<<endl;
     
     return 0;
 } 
