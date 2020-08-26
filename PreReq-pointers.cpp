@@ -32,6 +32,5 @@ int main()
 // {
 //    printf(scanf, scanf);
 //    return 0;
-// }
 
 
